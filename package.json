@@ -1,0 +1,12 @@
+{
+  "name": "air-quality-ioc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "tunnel": "node backend/scripts/startTunnel.js",
+    "dev:backend": "cd backend && node api/Server.js",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  }
+}
+
